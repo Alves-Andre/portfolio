@@ -108,7 +108,7 @@
 			scaleColor: false,
 			lineWidth: 4,
 			lineCap: 'butt',
-			barColor: '#FF9000',
+			barColor: '#7237ED',
 			trackColor:	"#f5f5f5",
 			size: 160,
 			animate: 1000
@@ -120,7 +120,7 @@
 			$('#fh5co-skills').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( pieChart , 400);					
+					setTimeout( pieChart , 500);					
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
